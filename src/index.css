@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --wj-bg: 255 255 255;
+    --wj-text: 17 24 39;
+    --wj-muted: 107 114 128;
+    --wj-border: 229 231 235;
+    --wj-card: 255 255 255;
+    --wj-accent: 234 88 12; /* orange-600 */
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white text-slate-900 antialiased;
+    font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial,
+      'Apple Color Emoji', 'Segoe UI Emoji';
+  }
+
+  a {
+    @apply text-slate-900 hover:text-orange-600;
+  }
+}
+
+@layer components {
+  .container-wj {
+    @apply mx-auto w-full max-w-6xl px-4;
+  }
+
+  .card {
+    @apply rounded-2xl border border-slate-200 bg-white shadow-sm;
+  }
+
+  .chip {
+    @apply inline-flex items-center rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-medium text-slate-700 hover:border-slate-300;
+  }
+}
