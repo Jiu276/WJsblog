@@ -10,6 +10,15 @@ export function Footer() {
             A clean, practical blog about products, platforms, and workflows —
             written in plain English.
           </p>
+          <p className="mt-3 text-xs text-slate-600">
+            Phone:{' '}
+            <a
+              href="tel:13958990266"
+              className="font-semibold text-slate-800 hover:text-orange-700"
+            >
+              13958990266
+            </a>
+          </p>
           <p className="mt-4 text-xs text-slate-500">
             © {new Date().getFullYear()} ChronoBlog. All rights reserved.
           </p>

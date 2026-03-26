@@ -18,6 +18,20 @@ export function ContactPage() {
           is a demo form UI; submissions are not sent to a server.)
         </p>
 
+        <div className="mt-6 rounded-2xl border border-slate-200 bg-white p-5">
+          <p className="text-sm font-semibold text-slate-900">Direct line</p>
+          <p className="mt-1 text-sm text-slate-600">
+            Call{' '}
+            <a
+              href="tel:13958990266"
+              className="font-semibold text-slate-800 hover:text-orange-700"
+            >
+              13958990266
+            </a>{' '}
+            for quick questions.
+          </p>
+        </div>
+
         {sent ? (
           <div className="mt-6 rounded-2xl border border-emerald-200 bg-emerald-50 p-5">
             <p className="text-sm font-semibold text-emerald-900">
@@ -98,7 +112,7 @@ export function ContactPage() {
                 Send message
               </button>
               <p className="text-xs text-slate-500">
-                Or email: <span className="font-semibold">hello@chronoblog.example</span>
+                Or email: <span className="font-semibold">cotew2649@gmail.com</span>
               </p>
             </div>
           </form>
