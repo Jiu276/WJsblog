@@ -14,6 +14,283 @@ export const categories: PostCategory[] = [
 
 const rawPosts = [
   {
+    id: 'p-2026-03-22-home-office-essentials',
+    slug: 'home-office-essentials-i-actually-use-2026',
+    title: 'Home Office Essentials I Actually Use (2026): Small Upgrades, Big Relief',
+    excerpt:
+      'A recent, honest list of desk essentials that stayed on my desk after the “testing week” ended—plus why each one earned its spot.',
+    dateISO: '2026-03-22',
+    category: 'Product Reviews',
+    tags: ['desk-setup', 'hardware', 'productivity'],
+    coverImage: {
+      src: 'https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1600&q=80',
+      alt: 'A clean desk setup with monitor and laptop',
+    },
+    readingTimeMinutes: 12,
+    blocks: [
+      {
+        type: 'p',
+        text: 'I have a rule now: if an “upgrade” doesn’t make my day feel easier within a week, it goes back in the box (or it gets donated).',
+      },
+      {
+        type: 'p',
+        text: 'This list is what survived that rule. No dramatic “life-changing” claims—just small tools that remove tiny frictions you normally tolerate.',
+      },
+      {
+        type: 'p',
+        text: 'The uncomfortable truth is that most “desk upgrades” fail because of one boring thing: reliability. I tried a cheap hub years ago—everything looked fine until a call started. HDMI would stutter, audio would drop, and my “quick test” turned into a 30-minute reset.',
+      },
+      {
+        type: 'img',
+        src: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1600&q=80',
+        alt: 'A tidy workspace with a laptop',
+        caption:
+          'A clean desk isn’t a vibe. It’s a system that reduces micro-decisions.',
+      },
+      { type: 'h2', text: '1) One-cable docking (reliability over port count)' },
+      {
+        type: 'p',
+        text: 'If you connect a monitor and charge your laptop daily, a stable hub is more useful than a dozen ports you never touch. Look for explicit 4K60 support and sane Power Delivery headroom—and don’t pretend “it works sometimes” counts.',
+      },
+      {
+        type: 'ul',
+        items: [
+          'Keyword: [USB Power Delivery](https://www.usb.org/usb-charger-pd)',
+          'Shopping tip: start with [Amazon search for "USB‑C hub 4K60 PD"](https://www.amazon.com/s?k=usb-c+hub+4k60+pd), then filter by reviews that mention “stable” and “doesn’t drop”.',
+          'Avoid: super tiny “8‑in‑1” bricks that run hot.',
+          'Red flag: HDMI “works”, but mouse/keyboard lag shows up 20 minutes into a call.',
+        ],
+      },
+      {
+        type: 'callout',
+        tone: 'promo',
+        title: 'Soft plug: my boring, reliable hub pick',
+        text: 'If you want a safe default, I keep one hub pick on the Products page—chosen for stability and heat behavior (the two things I notice during real work, not during unboxing videos).',
+        href: '/products/reliable-usb-c-hub',
+        hrefLabel: 'Open the hub pick',
+      },
+      { type: 'h2', text: '2) A monitor light bar (less glare, calmer nights)' },
+      {
+        type: 'p',
+        text: 'If you work at night, softer desk lighting helps more than you expect. It reduces glare on your screen, makes reading easier, and it quietly improves mood. I noticed the difference the second week—my eyes felt less “tired at 10pm” and more “ready to close the laptop”.',
+      },
+      {
+        type: 'ul',
+        items: [
+          'What to look for: dimming (you want to go below “office brightness”).',
+          'Color temperature: warm-ish light around 3000–3500K feels friendly for long sessions.',
+          'Practical test: if you see hotspots on the desk or reflections on the screen, reposition or lower brightness.',
+        ],
+      },
+      {
+        type: 'img',
+        src: 'https://images.unsplash.com/photo-1516387938699-a93567ec168e?auto=format&fit=crop&w=1600&q=80',
+        alt: 'Warm light over a desk setup',
+        caption:
+          'The goal is “soft and wide”, not “bright and narrow”.',
+      },
+      { type: 'h2', text: '3) Better audio for calls (because repetition is tiring)' },
+      {
+        type: 'p',
+        text: 'If you do calls daily, clear audio reduces the “can you repeat that?” tax. People notice your audio quality faster than your camera—especially when your voice is already a little quiet or you’re in an echo-y room.',
+      },
+      {
+        type: 'ul',
+        items: [
+          'Keyword: [Noise-canceling headphones](https://www.rtings.com/headphones/reviews/best/noise-cancelling)',
+          'Keyword: [USB microphone](https://www.shure.com/en-US/performance-production/louder/usb-mics-101)',
+          'If you shop on Amazon: start with [USB desk microphone](https://www.amazon.com/s?k=usb+desk+microphone) and compare “pickup distance” in reviews.',
+        ],
+      },
+      {
+        type: 'callout',
+        tone: 'promo',
+        title: 'Soft plug: the quick audio upgrade',
+        text: 'If you want a simple audio improvement without a full “studio” setup, a USB desk mic is a good start. It’s the upgrade that feels instantly useful, not the one you brag about once in a photo.',
+        href: '/products/usb-desk-microphone',
+        hrefLabel: 'See the USB mic pick',
+      },
+    ],
+  },
+  {
+    id: 'p-2026-03-15-beginner-keyboard-buying',
+    slug: 'how-to-buy-a-quiet-keyboard-without-the-hobby',
+    title: 'How to Buy a Quiet Keyboard Without Turning It Into a Hobby',
+    excerpt:
+      'A recent buyer’s guide for normal people: what to prioritize, what to ignore, and how to avoid the “spec sheet trap”.',
+    dateISO: '2026-03-15',
+    category: 'How-To',
+    tags: ['keyboard', 'buying', 'office'],
+    coverImage: {
+      src: 'https://images.unsplash.com/photo-1541140134513-85a161dc4a00?auto=format&fit=crop&w=1600&q=80',
+      alt: 'A mechanical keyboard on a desk',
+    },
+    readingTimeMinutes: 12,
+    blocks: [
+      {
+        type: 'p',
+        text: 'I love enthusiastic communities—but keyboards have a special talent for making you feel like you need to learn 200 terms before you’re allowed to buy one.',
+      },
+      {
+        type: 'p',
+        text: 'You don’t. If your goal is “quiet and pleasant” for work, you can decide in one sitting.',
+      },
+      {
+        type: 'p',
+        text: 'My first “quiet” purchase failed in a very human way: it sounded fine on my desk, but the spacebar rattle showed up the moment I started typing fast during a meeting. That’s when I learned that quiet isn’t one feature—it’s a chain of small choices.',
+      },
+      { type: 'h2', text: 'Start with sound: dull beats sharp' },
+      {
+        type: 'p',
+        text: 'In a shared room, the problem is usually sharp, high-frequency clicks. A slightly “thocky” sound is often less distracting—even at similar volume.',
+      },
+      {
+        type: 'ul',
+        items: [
+          'What you want: a softer “impact” instead of a crisp “tick”.',
+          'What you don’t: top-out clacks and spacebar rattles.',
+          'What surprises people: keycaps matter more than they expect once stabilizers are tuned.',
+        ],
+      },
+      {
+        type: 'img',
+        src: 'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1600&q=80',
+        alt: 'Keyboard and laptop on a clean desk',
+        caption:
+          'If it sounds good in a quiet room, it usually sounds fine on calls.',
+      },
+      { type: 'h2', text: 'The 3 questions that matter' },
+      {
+        type: 'ul',
+        items: [
+          'Do I need a numpad, or do I just think I do?',
+          'Will I type mostly for writing, or for coding (hotkeys, arrows, nav keys)?',
+          'Do I care more about quietness or feel?',
+          'Can I live with the spacebar sound (rattle test)?',
+        ],
+      },
+      {
+        type: 'p',
+        text: 'If you’re unsure, do a tiny “record test”. Tap a few keys and record 10 seconds on your phone. Listen back once through your laptop speakers, once through headphones. You’ll quickly hear the difference between “not that loud” and “actually annoying”.',
+      },
+      { type: 'h2', text: 'Avoid the spec sheet trap' },
+      {
+        type: 'p',
+        text: 'If you’re reading a list of 30 switch names and your eyes glaze over, stop. Pick one known category (quiet tactile, quiet linear) and buy from a brand with real support. Marketing loves the word “silent”, but your real checklist is: switches, case dampening, and stabilizers.',
+      },
+      {
+        type: 'p',
+        text: 'If you want a quick baseline, [Keyboard University](https://www.keyboard.university/) is a good resource that doesn’t feel like gatekeeping.',
+      },
+      {
+        type: 'p',
+        text: 'When I shop, I start with [Amazon search for "quiet mechanical keyboard"](https://www.amazon.com/s?k=quiet+mechanical+keyboard) and filter based on comments that mention “stabilizers” or “doesn’t rattle”.',
+      },
+      {
+        type: 'img',
+        src: 'https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1600&q=80',
+        alt: 'Notes and desk items',
+        caption:
+          'A calm desk makes “quiet keyboard” feel like a real quality-of-life upgrade.',
+      },
+      {
+        type: 'callout',
+        tone: 'promo',
+        title: 'Soft plug: a compact keyboard pick',
+        text: 'If you want a starter recommendation, I keep one compact keyboard pick on the Products page.',
+        href: '/products/compact-mechanical-keyboard',
+        hrefLabel: 'See the keyboard pick',
+      },
+    ],
+  },
+  {
+    id: 'p-2026-03-05-creator-ops-checklist',
+    slug: 'creator-ops-checklist-before-you-sell-anything',
+    title: 'A Creator Ops Checklist Before You Sell Anything (So You Don’t Panic Later)',
+    excerpt:
+      'A recent, practical checklist for selling digital products: customer ownership, refunds, exports, and the boring parts that protect your future self.',
+    dateISO: '2026-03-05',
+    category: 'Workflows',
+    tags: ['creator', 'operations', 'commerce'],
+    coverImage: {
+      src: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1600&q=80',
+      alt: 'Analytics dashboard on a laptop screen',
+    },
+    readingTimeMinutes: 11,
+    blocks: [
+      {
+        type: 'p',
+        text: 'The first time you sell something online is exciting. The second time—after the first refund request, failed download, or payment dispute—teaches you what “operations” really means.',
+      },
+      {
+        type: 'p',
+        text: 'This is the checklist I keep so I don’t have to learn the same lesson twice.',
+      },
+      {
+        type: 'p',
+        text: 'I used to think “good marketing” was the whole job. Then I noticed something: when you’re small, customer trust is built (or broken) by boring details—refunds that are clear, downloads that actually work, and response times that don’t feel robotic.',
+      },
+      { type: 'h2', text: 'Own the relationship' },
+      {
+        type: 'ul',
+        items: [
+          'Collect email (with permission) and keep exports monthly.',
+          'Document how to contact you (email + phone) clearly.',
+          'Write a simple refund policy and make it visible.',
+          'Keep a change log: when you update the product, customers should know what improved.',
+        ],
+      },
+      {
+        type: 'h2',
+        text: 'Prepare for the “boring” failure modes',
+      },
+      {
+        type: 'ul',
+        items: [
+          'Downloads fail: have a backup delivery link or resend process.',
+          'Disputes happen: understand how [chargebacks](https://stripe.com/docs/disputes) work.',
+          'Files update: version your downloads so customers don’t get lost.',
+          'Email deliverability: if your signup emails land in spam, you’ll think “marketing doesn’t work”.',
+        ],
+      },
+      {
+        type: 'p',
+        text: 'One mistake I made early: I updated a file, but the download link stayed the same and the old customers got a different version without any context. Since then, I always label releases and keep the previous version accessible for a while.',
+      },
+      {
+        type: 'img',
+        src: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1600&q=80',
+        alt: 'People collaborating around a laptop',
+        caption:
+          'A little ops up front prevents a lot of late-night support later.',
+      },
+      { type: 'h2', text: 'Keep your docs portable' },
+      {
+        type: 'p',
+        text: 'Most “platform lock-in” pain starts with your docs and FAQs. Pick a system you can export cleanly. If you need ideas, start with [Note Apps for Builders](/blog/note-apps-for-builders-2025).',
+      },
+      {
+        type: 'p',
+        text: 'A practical trick: write your docs like you’re going to move them next month. Use plain headings, keep formatting simple, and avoid “mystery” embeds you can’t export later.',
+      },
+      {
+        type: 'callout',
+        tone: 'promo',
+        title: 'Soft plug: platform comparison',
+        text: 'If you’re still choosing where to sell, I wrote a comparison that focuses on trade-offs and exit plans.',
+        href: '/blog/platforms-for-selling-digital-products',
+        hrefLabel: 'Read platform comparison',
+      },
+      {
+        type: 'img',
+        src: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1600&q=80',
+        alt: 'Small business payment scenario',
+        caption:
+          'Selling is a product. Support and refunds are part of the product too.',
+      },
+    ],
+  },
+  {
     id: 'p-2026-02-12-quiet-keyboards',
     slug: 'quiet-keyboards-for-office-2026',
     title: 'Quiet Keyboards That Feel Premium (2026 Office Shortlist)',

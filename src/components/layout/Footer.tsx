@@ -19,6 +19,10 @@ export function Footer() {
               13958990266
             </a>
           </p>
+          <p className="mt-2 max-w-prose text-xs text-slate-500">
+            Disclosure: As an Amazon Associate, we may earn from qualifying
+            purchases.
+          </p>
           <p className="mt-4 text-xs text-slate-500">
             © {new Date().getFullYear()} ChronoBlog. All rights reserved.
           </p>
