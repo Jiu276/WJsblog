@@ -1,4 +1,4 @@
-# WJsblog (English Blog Site)
+# ChronoBlog (English Blog Site)
 
 Modern, clean multi-category blog + product recommendations site.
 

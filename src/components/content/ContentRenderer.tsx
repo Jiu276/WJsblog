@@ -19,7 +19,6 @@ function renderLinkedText(text: string) {
   const re = /\[([^\]]+)\]\(((?:https?:\/\/|\/)[^)]+)\)/g
   let last = 0
   let m: RegExpExecArray | null
-  // eslint-disable-next-line no-cond-assign
   while ((m = re.exec(text))) {
     if (m.index > last) parts.push({ kind: 'text', value: text.slice(last, m.index) })
     parts.push({ kind: 'link', label: m[1], href: m[2] })

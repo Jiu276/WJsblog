@@ -9,10 +9,10 @@ export function AboutPage() {
           About
         </p>
         <h1 className="mt-2 text-2xl font-semibold tracking-tight text-slate-900 sm:text-3xl">
-          WJsblog: clean writing for better choices
+          ChronoBlog: clean writing for better choices
         </h1>
         <p className="mt-4 text-sm leading-relaxed text-slate-600">
-          WJsblog is an English blog focused on practical picks: products that
+          ChronoBlog is an English blog focused on practical picks: products that
           hold up in daily work, platforms that reduce long-term regret, and
           workflows you can maintain when life gets busy.
         </p>
@@ -50,7 +50,7 @@ export function AboutPage() {
             to="/contact"
             className="mt-4 inline-flex rounded-xl bg-orange-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-orange-700"
           >
-            Contact WJsblog
+            Contact ChronoBlog
           </Link>
         </div>
       </section>

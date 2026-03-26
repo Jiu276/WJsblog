@@ -98,7 +98,7 @@ export function ContactPage() {
                 Send message
               </button>
               <p className="text-xs text-slate-500">
-                Or email: <span className="font-semibold">hello@wjsblog.example</span>
+                Or email: <span className="font-semibold">hello@chronoblog.example</span>
               </p>
             </div>
           </form>

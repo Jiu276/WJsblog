@@ -19,7 +19,7 @@ const items: SocialItem[] = [
   { href: 'https://x.com/', label: 'X', Icon: Twitter },
   { href: 'https://www.linkedin.com/', label: 'LinkedIn', Icon: Linkedin },
   { href: 'https://www.youtube.com/', label: 'YouTube', Icon: Youtube },
-  { href: 'mailto:hello@wjsblog.example', label: 'Email', Icon: Mail },
+  { href: 'mailto:hello@chronoblog.example', label: 'Email', Icon: Mail },
   { href: '/blog', label: 'RSS (coming soon)', Icon: Rss, internal: true },
 ]
 

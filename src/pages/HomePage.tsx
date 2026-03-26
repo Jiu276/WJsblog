@@ -30,7 +30,7 @@ export function HomePage() {
               English blog • Clean reviews • Practical picks
             </div>
             <h1 className="mt-4 text-3xl font-semibold tracking-tight text-slate-900 sm:text-5xl">
-              WJsblog
+              ChronoBlog
             </h1>
             <p className="mt-3 max-w-2xl text-sm leading-relaxed text-slate-600 sm:text-base">
               A modern, no-fluff blog about products, platforms, and workflows.
